@@ -49,7 +49,7 @@ class LoginPage():
             displayed_button = self.driver.find_element(By.LINK_TEXT, self.Logout_button_LINKTEXT).is_displayed()
             return displayed_button
         except:
-            print("The Logout button isn't displayed")
+            print("The Logout button isn't displayed.")
             return False
 
     def check_incorrectUsername_text(self):
